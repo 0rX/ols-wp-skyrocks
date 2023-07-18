@@ -24,7 +24,7 @@ before_install:
   - bash .travis/main.sh
 
 install:
-  - git clone https://github.com/litespeedtech/ols-docker-env.git
+  - git clone https://github.com/0rX/ols-wp-skyrocks.git
   - docker-compose up -d
 
 before_script:
